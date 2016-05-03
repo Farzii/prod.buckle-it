@@ -145,6 +145,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         * Pingpong admin
+         */
+        Pingpong\Admin\Providers\SupportServiceProvider::class,
+        Pingpong\Admin\AdminServiceProvider::class,
+
     ],
 
     /*
